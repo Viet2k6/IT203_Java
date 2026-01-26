@@ -8,11 +8,9 @@ public class Session02Bai05 {
         int ngayTre;
         System.out.println("--- HE THONG DANH GIA DOC GIA ---");
         System.out.println("(Nhap so ngay tre. Nhap 999 de ket thuc)");
-
         while (true) {
             System.out.print("\nSo ngay tre cua lan nay: ");
             ngayTre = sc.nextInt();
-
             if (ngayTre == 999) {
                 break;
             }

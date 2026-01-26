@@ -5,8 +5,8 @@ public class Session02Bai02 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Nhap ma khu vuc (A, B, C, D): ");
-        char code = sc.next().charAt(0);
-        switch (code) {
+        char choice = sc.next().charAt(0);
+        switch (choice) {
             case 'A':
                 System.out.println("Vi tri: Tang 1 - Sach Van hoc");
                 break;
