@@ -11,8 +11,6 @@ public class Session03Bai05 {
 
     public static int deleteBook(int[] arr, int n, int bookId) {
         int pos = -1;
-
-        // Tìm vị trí cần xóa
         for (int i = 0; i < n; i++) {
             if (arr[i] == bookId) {
                 pos = i;
@@ -52,3 +50,4 @@ public class Session03Bai05 {
         System.out.println("Da thoat chuong trinh.");
     }
 }
+
