@@ -14,7 +14,7 @@ public class Session03Bai06 {
                 j++;
             }
         }
-        
+
         while (i < a.length) {
             temp[k++] = a[i++];
         }

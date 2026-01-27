@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
 public class Session03Bai02 {
+
     public static int searchBooks(String[] arr, String search) {
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i].equalsIgnoreCase(search)) {
+            if (arr[i].equals(search)) {
                 return i;
             }
         }
